@@ -1,0 +1,695 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+
+.modal .modal-content {
+  padding: 24px;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.modal {
+  width: 30% !important;
+}
+
+.adjust>li {
+
+  list-style-type: none;
+  font-weight: 100;
+  word-spacing: 0px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.li.adjust2 {
+  list-style: square;
+}
+
+.light1 {
+  font-weight: 300;
+  text-align: justify;
+  line-height: 17px;
+  word-spacing: 0px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  #logo-container1 {
+    width: 71px;
+    height: 56px;
+  }
+
+  .row .col.s4 {
+    /* width: 33.3333333333%; */
+    width: 98%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
+  #properly {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row .col.s6 {
+    width: 98%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
+  #abc {
+    width: 293px;
+  }
+
+  .row .col.s2 {
+    width: 40%;
+    margin-left: 10%;
+
+    /* left: auto; */
+    /* right: auto; */
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+
+    top: 40%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+label {
+  color: black;
+}
+
+nav .brand-logo {
+  color: #444;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+nav ul a {
+  color: #444;
+  font-weight: 500;
+}
+
+input {
+  border-radius: 4px !important;
+  border: 1px solid black !important;
+}
+
+.modal .modal-content {
+  padding: 24px;
+}
+
+.modal .modal-footer {
+  border-radius: 0 0 2px 2px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding: 4px 6px;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 56px;
+    width: 100%;
+    text-align: center
+
+}
+
+.modal .modal-footer .btn-flat {
+  margin: 6px 0;
+  background: blue;
+  color: white;
+  border-radius: 4px;
+}
+
+.modal .modal-footer .btn-flat:hover {
+  background: cornflowerblue !important;
+}
+
+.modal {
+  border-radius: 14px;
+  width: 80%;
+
+}
+
+a.waves-effect.waves-light.btn:visited {
+  background: #158140 !important;
+}
+
+a.waves-effect.waves-light.btn:active {
+  background-color: pink;
+}
+
+a.waves-effect.waves-light.btn.modal-trigger:hover {
+  background: black !important;
+  box-shadow: #fff !important;
+  color: azure;
+  text-decoration: none !important;
+}
+
+.popup-content h3 {
+  font-size: 1.2em;
+  margin-top: -8px;
+}
+
+.input-field>label {
+  padding: 3px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.buttonps:hover {
+  text-decoration: underline;
+}
+
+a.waves-effect.waves-light.btn:hover {
+  text-decoration: underline;
+}
+
+.popup {
+  left: 0;
+  position: fixed;
+  top: 20%;
+  transition: left .5s ease;
+  z-index: 1000;
+}
+
+.popupps {
+  left: 0;
+  position: fixed;
+  top: 55%;
+  transition: left .5s ease;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  box-sizing: border-box;
+  border-radius:10px;
+  color: white;
+  float: left;
+  height: 185px;
+  padding: 10px;
+  width: 275px;
+  font-size: 12px;
+  ;
+}
+
+.closepopup {
+  left: -275px;
+
+}
+
+.button {
+  background-color: red;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 93px;
+  padding-top: 0.5em;
+  width: 38px;
+  font-weight: 500;
+  color: white !important;
+  font-size: 15px;
+  line-height: 15px;
+  animation: example 2s linear infinite;
+  animation: horizontal left 2s ease infinite;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+  25%  {top:-100px;}
+}
+@keyframes example1 {
+  from {background-color: yellow;}
+  to {background-color: red;}
+}
+
+.button::after {
+  content: "▶";
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.button-closed::after {
+  content: "◀";
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.buttonps {
+  border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 97px;
+    padding-top: 0.5rem;
+    width: 38px;
+    font-weight: 500;
+    color: white !important;
+    font-size: 15px;
+    line-height: 15px;
+  animation: example1 2s linear infinite;
+  animation: horizontal left 2s ease infinite;
+}
+
+.buttonps::after {
+  content: "▶";
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.button-closed1::after {
+  content: "◀";
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn-group button {
+  width: 200px !important;
+    color: #fff !important;
+    padding: 5px !important;
+    background-color: #158140 !important;
+    margin-left: 24px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 34px;
+    font-size: 16px;
+    border: none;
+}
+.inputGroup2 input {
+  margin-bottom: 1px !important;
+}
+
+.input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+  background-color: white;
+  border: none;
+  border: 1px solid #9e9e9e !important;
+  border-radius: 0;
+  outline: none;
+  height: 2rem;
+  width: 100%;
+  font-size: 12px;
+  margin: 0 0 8px 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: border .3s, -webkit-box-shadow .3s;
+  transition: border .3s, -webkit-box-shadow .3s;
+  transition: box-shadow .3s, border .3s;
+  transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+.sidenav-overlay {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#hi :hover {
+  background-color: yellow;
+}
+
+#hii {
+
+  font-weight: 500;
+  font-size: 20px;
+  color: #0af90afc;
+  border: 2px solid brown;
+  padding: 6px;
+  border-radius: 4px;
+  background: azure;
+  font-family: monospace;
+}
+
+.card {
+  box-shadow: 0 -2px 16px 1px rgba(0, 0, 0, .27);
+}
+
+#aminitiescol {
+  margin-left: 83px;
+}
+
+.parallax-container {
+  color: #5d5d5d;
+}
+
+.open-button {
+  background-color: #ff3d00;
+  color: white;
+  padding: 11px 9px 9px 0px;
+  z-index: 1;
+  border: none;
+  border-radius: 2px;
+  opacity: 1.8;
+  position: fixed;
+  top: 150px;
+  width: 53px;
+  font-weight: 900;
+  text-align: inline-block;
+  height: 121px;
+  writing-mode: vertical-rl;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 7px;
+}
+
+.open-button1 {
+  background-color: #3d5afe;
+  color: white;
+  padding: 11px 9px 9px 0px;
+  z-index: 1;
+  border: none;
+  border-radius: 2px;
+  opacity: 1.8;
+  position: fixed;
+  top: 400px;
+  width: 53px;
+  font-weight: 900;
+  text-align: inline-block;
+  height: 121px;
+  writing-mode: vertical-rl;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 7px;
+}
+
+.img-left{
+  width:90%;
+  height:60vh;
+}
+
+#Download {
+  writing-mode: vertical-rl;
+}
+
+.containerabc{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding:40px
+}
+
+@media only screen and (max-width: 600px) {
+  .vintage {
+    min-height: 614px;
+  }
+
+  .img-left {
+    width: 100%;
+    height: 51vh;
+  }
+
+  .containerabc {
+    display: block;
+    /* grid-template-columns: 1fr 1fr; */
+    /* padding: 40px; */
+  }
+
+  #finalalign{
+    margin-left: 10px !important
+  }
+
+  #download-button{
+    width:250px;
+  }
+  .modal {
+    width: 80% !important;
+ }
+ .popup-content h3 {
+  font-size: 1.2em;
+  margin-top: 0px;
+ }
+
+  #trans-Form {
+    display: none;
+  }
+
+  #comming1 {
+    width: 273px;
+  }
+
+  #aminitiescol {
+    margin-left: 0px;
+  }
+
+  .parallax-container .section {
+
+    top: 0%;
+  }
+
+  h2 {
+    font-size: 1.56rem;
+    line-height: 110%;
+    margin: 2.3733333333rem 0 1.424rem 0;
+  }
+
+  h4 {
+    font-size: 1.28rem;
+    line-height: 110%;
+    margin: 1.52rem 0 0.912rem 0;
+  }
+
+  img {
+    width: 312px;
+  }
+
+  .btn {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 4s00 !important;
+  }
+
+  .classic {
+    width: 58px;
+    margin-left: 20px;
+
+  }
+
+  h5.uniform {
+    font-size: 15px;
+    color: #5d5d5d;
+  }
+
+  #location {
+    margin-top: -30px;
+    margin-bottom: -180px;
+  }
+
+  nav .brand-logo {
+    left: 49%;
+    font-size: larger;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 93%;
+  }
+}
+
+.phonelink {
+  position: fixed;
+  /* Lock location always on the scree */
+  bottom: 0;
+  /* Set to the bottom */
+  right: 0;
+  /* Set to the right */
+  margin: 22px;
+  /* Add space around background */
+}
+
+.phoneicon {
+  width: 49px;
+  /* Set width of icon */
+  height: 49px;
+  /* Set height of icon */
+}
+
+@media screen and (max-width: 480px) {
+  .lgscreenphone {
+    display: none;
+    /* On small screens make phone icon disappear */
+  }
+
+  .mbscreenphone {
+    display: block;
+    /* On small screens make phone icon appear */
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .mbscreenphone {
+    display: none;
+    /* On large screens make phone icon disappear */
+  }
+
+  .lgscreenphone {
+    display: block;
+    /* On large screens make phone icon appear */
+  }
+
+
+}
+
+@media only screen and (min-width: 601px) {
+
+  nav,
+  nav .nav-wrapper i,
+  nav a.sidenav-trigger,
+  nav a.sidenav-trigger i {
+    height: 70px;
+    line-height: 64px;
+  }
+}
+
+#trans-Form {
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.4);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* width: 100%; */
+  padding: 20px;
+  border-radius: 20px;
+  margin: 40px;
+
+}
+
+a#download-button.btn-small.waves-effect.waves-light.teal.lighten-1:hover {
+  background: tomato !important;
+}
+a#download-button.btn-small.waves-effect.waves-light.teal.lighten-1.btn.modal-trigger.faa-horizontal.animated {
+  animation: horizontal 2s ease infinite;
+} 
+
+button.btn-small.waves-effect.waves-light.teal.lighten-1:hover {
+  background: tomato !important;
+}
+
+.teal.lighten-1 {
+  background-color: #ED2A28 !important;
+  
+
+}
+
+.teal.lighten-1:hover {
+  background: tomato;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px );
+}
+
+@media only screen and (max-width: 600px) {
+  .row .col.s3 {
+    width: 48%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .btn {
+    padding: 0px;
+    font-size: 12px;
+    width: 103px;
+    margin-top: 19px;
+    font-weight: 400 !important;
+  }
+
+  #beauty {
+    margin-top: -50px;
+  }
+
+  a.waves-effect.waves-light.btn.modal-trigger {
+    background: #158140 !important;
+    box-shadow: #fff !important;
+    text-decoration: none !important;
+    
+  }
+}
+
+.faa-horizontal.animated, .faa-horizontal.animated-hover:hover, .faa-parent.animated-hover:hover>.faa-horizontal {
+  -webkit-animation: horizontal 2s ease infinite; 
+   animation: horizontal 2s ease infinite;
+}
