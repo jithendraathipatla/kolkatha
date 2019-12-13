@@ -5,7 +5,7 @@
 		$phone=$_POST['phone'];
 	
 		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
-		$subject='Prestige waterford';
+		$subject='Prestige Smartcity';
 		$message="Project_name :".$subject."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Email :".$email."\n";
 		$headers="From: ".$email;
 		if(mail($to, $subject, $message, $headers)){
